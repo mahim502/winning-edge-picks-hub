@@ -1,21 +1,21 @@
 
-import { Basketball, Football, Baseball, Snowflake } from "lucide-react";
+import { Activity, Dumbbell, Trophy, Snowflake, Target } from "lucide-react";
 
 const SportsCoverage = () => {
   const sports = [
     {
       name: "NBA",
-      icon: <Basketball className="h-10 w-10 text-brand-gold mb-4" />,
+      icon: <Activity className="h-10 w-10 text-brand-gold mb-4" />,
       description: "Professional basketball picks with detailed analysis and insights.",
     },
     {
       name: "NFL",
-      icon: <Football className="h-10 w-10 text-brand-gold mb-4" />,
+      icon: <Trophy className="h-10 w-10 text-brand-gold mb-4" />,
       description: "Expert football predictions for all regular and post-season games.",
     },
     {
       name: "MLB",
-      icon: <Baseball className="h-10 w-10 text-brand-gold mb-4" />,
+      icon: <Target className="h-10 w-10 text-brand-gold mb-4" />,
       description: "Baseball betting advice from seasoned industry professionals.",
     },
     {
@@ -25,7 +25,7 @@ const SportsCoverage = () => {
     },
     {
       name: "College Basketball",
-      icon: <Basketball className="h-10 w-10 text-brand-gold mb-4" />,
+      icon: <Dumbbell className="h-10 w-10 text-brand-gold mb-4" />,
       description: "Comprehensive coverage of all major college basketball games.",
     },
   ];
